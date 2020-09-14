@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Visualizing Real World Data Project
+# Migration and Happiness
 
 *Group project, week 6*
 *Andres, Alex, Imogen*
@@ -44,6 +44,6 @@ Our repository contains the following files:
 
 ## Links
 
-[Repository](https://github.com/imogen-rickert/visualising_real_data)  
+[Repository](https://github.com/imogen-rickert/migration_happiness)  
 
 [Trello](https://trello.com/b/rFmUeEsa/migration-happiness)
