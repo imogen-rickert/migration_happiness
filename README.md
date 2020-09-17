@@ -2,16 +2,15 @@
 
 # Migration and Happiness
 
-*Group project, week 6*
+*Group project, week 6*. 
 *Andres, Alex, Imogen*
 
 *August 2020 cohort, Berlin, 18.09.20*
 
 ## Content
-- [Project Description](#project_description)
-- [Questions & Hypotheses](#Questions_&_Hypotheses)
+- [Project Description](#Project_Description)  
+- [Questions & Hypotheses](#Questions_&_Hypotheses)  
 - [Dataset](#dataset)
-- [Database](#database)
 - [Workflow](#workflow)
 - [Organization](#organization)
 - [Links](#links)
