@@ -2,7 +2,7 @@
 
 # Migration and Happiness
 
-*Group project, week 6*. 
+*Group project, week 6*  
 *Andres, Alex, Imogen*
 
 *August 2020 cohort, Berlin, 18.09.20*
@@ -16,7 +16,7 @@
 - [Links](#links)
 
 ## Project_Description
-Our group wanted to explore possible correlations between migration and happiness.
+Our group wanted to explore possible correlations between migration and happiness. We merged several csv files from various sources to look for trends, check for correlations and conduct analyses. We utilised Python for table merging, data cleaning, to check correlations and to make regression analyses and we utilised Tableau to visualise our results. 
 
 
 ## Questions_&_Hypotheses
@@ -65,6 +65,7 @@ We noticed some gaps in our migration dataset which are likely due to irregular 
 We created a kanban board on Trello to organise and coordinate work among ourselves. That way, we could distinguish between tasks that needed to be done and tasks that would be nice to have if time permits. The kanban board also allowed us to assign tasks to one or more of us, making it easier to keep track of who was doing what. 
 
 Our repository contains the following files:
+- Presentation - *STILL TO ADD*
 - Datasets folders containing csv files: 
   - 1_Migration
     - 0_Metadata
@@ -88,7 +89,7 @@ Our repository contains the following files:
     - 2_migration_population_merge_clean (cleaned version of above dataset)
     - 3_migration_merge_clean_final (merge of 1_migration_population_merge and 2_migration_countries)
     - 4_migration_happiness_merge (merge of 3_migration_merge_clean_final and 2017 Happiness csv)
-  - 5_Subsets - keep this or delete?? 
+  - 5_Subsets *- keep this or delete??*
 - Notebooks folder containing Jupyter Notebook files:
   - Merge_1_migration_population
   - Merge_2_migration_tables
@@ -98,6 +99,8 @@ Our repository contains the following files:
 ## Links
 
 [Repository](https://github.com/imogen-rickert/migration_happiness)  
+
+TABLEAU *still to add when finalised*
 
 [Trello](https://trello.com/b/rFmUeEsa/migration-happiness)
 
