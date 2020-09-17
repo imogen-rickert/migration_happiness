@@ -23,6 +23,8 @@
 ## Questions & Hypotheses
 
 
+Particular migration processes like the case between Colombia and Venezuela are well known and documented. As mentioned Martinez in [her work](https://repository.ucatolica.edu.co/bitstream/10983/3107/4/TESINA%20EL%20PROCESO%20MIGRATORIO%20ENTRE%20COLOMBIA%20Y%20VENEZUELA%201989%202014%20%20PRINCIPALES%20CAUSAS%20Y%20EFECTOS%20P.pdf), among other factors the violence, the lack of opportunities  and the poor administration management  in the country of origin  have been the main reasons of migration between this two countries. The language  facility and cultural   proximity are also a decisive factor in this circumstances.  
+
 
 ## Dataset
 
