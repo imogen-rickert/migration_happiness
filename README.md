@@ -31,6 +31,7 @@ Particular migration processes like the case between Colombia and Venezuela are 
 
 
 ## Workflow
+We used linear regression (OLS) to check which features from our collected data were more likely to affect the migration (net and rate). First we use a general approach using all the information collected getting a very good approx (~80%).  To avoid noise ( multicolinearity) in our model we breakdown our analysis using only few factors for iteration, getting an accuracy only of 19%.  So we concluded that among other factors the happiness score of a country is not enough to explain its migration values.
 
 
 
