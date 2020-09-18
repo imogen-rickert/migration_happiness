@@ -67,7 +67,7 @@ For a future project, it would be interesting to locate additional datasets cont
 We created a kanban board on Trello to organise and coordinate work among ourselves. That way, we could distinguish between tasks that needed to be done and tasks that would be nice to have if time permits. The kanban board also allowed us to assign tasks to one or more of us, making it easier to keep track of who was doing what. 
 
 Our repository contains the following files:
-- Presentation - *STILL TO ADD*
+- Presentation
 - Datasets folders containing csv files: 
   - 1_Migration
     - 0_Metadata
@@ -91,7 +91,6 @@ Our repository contains the following files:
     - 2_migration_population_merge_clean (cleaned version of above dataset)
     - 3_migration_merge_clean_final (merge of 1_migration_population_merge and 2_migration_countries)
     - 4_migration_happiness_merge (merge of 3_migration_merge_clean_final and 2017 Happiness csv)
-  - 5_Subsets *- keep this or delete??*
 - Notebooks folder containing Jupyter Notebook files:
   - Merge_1_migration_population
   - Merge_2_migration_tables
@@ -102,7 +101,7 @@ Our repository contains the following files:
 
 [Repository](https://github.com/imogen-rickert/migration_happiness)  
 
-TABLEAU *still to add when finalised*
+[TABLEAU](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes)  
 
 [Trello](https://trello.com/b/rFmUeEsa/migration-happiness)
 
