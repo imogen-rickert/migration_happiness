@@ -101,7 +101,7 @@ Our repository contains the following files:
 
 [Repository](https://github.com/imogen-rickert/migration_happiness)  
 
-[TABLEAU](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes)  
+[Tableau](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes)  
 
 [Trello](https://trello.com/b/rFmUeEsa/migration-happiness)
 
