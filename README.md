@@ -15,6 +15,7 @@
 - [Organization](#organization)
 - [Links](#links)
 
+
 ## Project_Description
 Our group wanted to explore possible correlations between migration and happiness. We merged several csv files from various sources to look for trends, check for correlations and conduct analyses. We utilised Python for table merging, data cleaning, to check correlations and to make regression analyses and we utilised Tableau to visualise our results. 
 
@@ -50,9 +51,10 @@ Source: United Nations Population Division
 Link: https://data.worldbank.org/indicator/SP.POP.TOTL
 We used 1 main csv file
 
+
 ## Workflow
 
-First, we decided on our topic and began a broad search for data. Ideally, we would have liked to do a time series with happiness and migration together. However, since the World Happiness Reports started in 2015 and the UN migration data is only shown for 5 year periods, we were only able to find overlapping data for the year 2017. Therefore, we decided to conduct time series on our migration data and happiness data separately to examine trends and changes over time. We decided to include an additional dataset with global population numbers to merge with our migration dataset, so that we could check the migration as a percentage of the overall population and create an additional column: net migration rate. This allowed us to compare absolute migration numbers with migration rate, which led to some interesting findings. 
+First, we decided on our topic and began a broad search for data. Ideally, we would have liked to do a time series with happiness and migration together. However, since the World Happiness Reports started in 2015 and the UN migration data is only shown for 5 year periods, we were only able to find overlapping data for the year 2017. Therefore, we decided to conduct time series on our migration data and happiness data separately to examine trends and changes over time. We decided to include an additional dataset with global population numbers to merge with our migration dataset, so that we could check the migration as a percentage of the overall population and create an additional column: net migration rate. This allowed us to compare absolute migration numbers with migration rate, which led to some interesting findings which we visualised in our [Tableau story](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes). 
 
 We extracted the happiness score for the years 2015 - 2019 into a new data frame and calculated the mean of the years per country. We found that the 5 highest scoring countries are mainly in Northern Europe (except Switzerland) and have remained stable over time. The 5 lowest scoring are mainly in Africa (except Syria), and peaked in 2019. 
 
@@ -95,6 +97,10 @@ Our repository contains the following files:
   - Merge_1_migration_population
   - Merge_2_migration_tables
   - Merge_3_migration_happiness
+  - Happiness Analysis
+  - Descriptive_analysis_happiness
+  - regression_migration
+  - temp-plot.html
 
 
 ## Links
