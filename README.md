@@ -15,6 +15,7 @@
 - [Organization](#organization)
 - [Links](#links)
 
+
 ## Project_Description
 Our group wanted to explore possible correlations between migration and happiness. We merged several csv files from various sources to look for trends, check for correlations and conduct analyses. We utilised Python for table merging, data cleaning, to check correlations and to make regression analyses and we utilised Tableau to visualise our results. 
 
@@ -31,7 +32,6 @@ Starting out, we had two main hypotheses:
 1. Countries with high emigration rates have a low happiness rating.
 2. Countries with high immigration rates have a high happiness rating.
 
-Particular migration processes like the case between Colombia and Venezuela are well known and documented. As mentioned Martinez in [her work](https://repository.ucatolica.edu.co/bitstream/10983/3107/4/TESINA%20EL%20PROCESO%20MIGRATORIO%20ENTRE%20COLOMBIA%20Y%20VENEZUELA%201989%202014%20%20PRINCIPALES%20CAUSAS%20Y%20EFECTOS%20P.pdf), among other factors the violence, the lack of opportunities  and the poor administration management  in the country of origin  have been the main reasons of migration between this two countries. The language  facility and cultural   proximity are also a decisive factor in this circumstances.  
 
 ## Dataset
 We utilised 3 separate databanks for our analysis.
@@ -51,16 +51,17 @@ Source: United Nations Population Division
 Link: https://data.worldbank.org/indicator/SP.POP.TOTL
 We used 1 main csv file
 
+
 ## Workflow
 
-First, we decided on our topic and began a broad search for data. Ideally, we would have liked to do a time series with happiness and migration together. However, since the World Happiness Reports started in 2015 and the UN migration data is only shown for 5 year periods, we were only able to find overlapping data for the year 2017. Therefore, we decided to conduct time series on our migration data and happiness data separately to examine trends and changes over time. We decided to include an additional dataset with global population numbers to merge with our migration dataset, so that we could check the migration as a percentage of the overall population and create an additional column: net migration rate. This allowed us to compare absolute migration numbers with migration rate, which led to some interesting findings. 
+First, we decided on our topic and began a broad search for data. Ideally, we would have liked to do a time series with happiness and migration together. However, since the World Happiness Reports started in 2015 and the UN migration data is only shown for 5 year periods, we were only able to find overlapping data for the year 2017. Therefore, we decided to conduct time series on our migration data and happiness data separately to examine trends and changes over time. We decided to include an additional dataset with global population numbers to merge with our migration dataset, so that we could check the migration as a percentage of the overall population and create an additional column: net migration rate. This allowed us to compare absolute migration numbers with migration rate, which led to some interesting findings which we visualised in our [Tableau story](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes). 
 
 We extracted the happiness score for the years 2015 - 2019 into a new data frame and calculated the mean of the years per country. We found that the 5 highest scoring countries are mainly in Northern Europe (except Switzerland) and have remained stable over time. The 5 lowest scoring are mainly in Africa (except Syria), and peaked in 2019. 
-and the bottom 5 are mainly in Africa. 
 
 Then, we merged the datasets and looked for correlations between happiness and migration for the year 2017, to test our hypotheses. We used linear regression (OLS) to check which features from our collected data were more likely to affect the migration (net and rate). First, we took a general approach, using all the information collected getting a very good approx (~80%). To avoid noise (multicolinearity) in our model, we broke down our analysis using only a few factors for iteration, getting an accuracy only of 19%. So we concluded that among other factors, the happiness score of a country, while having a statistically significant correlation with migration, is not enough to explain migration patterns.
 
-We noticed some gaps in our migration dataset which are likely due to irregular immigration, since this is difficult to record and is often not captured in official UN surveys. For example, as a likely consequence of the still ongoing Venezuelan crisis, we observed in our data emigration from Venezuela in recent years and corresponding expected increased immigration in surrounding countries. However, the data did not reflect earlier significant immigration flows from the 1980s onwards from Colombia to Venezuela resulting from the conflict taking place in Colombia (further information can be found [here](https://repository.ucatolica.edu.co/bitstream/10983/3107/4/TESINA%20EL%20PROCESO%20MIGRATORIO%20ENTRE%20COLOMBIA%20Y%20VENEZUELA%201989%202014%20%20PRINCIPALES%20CAUSAS%20Y%20EFECTOS%20P.pdf) in Spanish). For a future project, it would be interesting to locate additional datasets containing more information on different migration categories, in particular irregular immigration, to reflect immigration flows more accurately. 
+We noticed some gaps in our migration dataset which are likely due to irregular immigration, since this is difficult to record and is often not captured in official UN surveys. For example, as a likely consequence of the still ongoing Venezuelan crisis, we observed in our data emigration from Venezuela in recent years and corresponding expected increased immigration in surrounding countries. However, the data did not reflect earlier well documented migration flows from the 1980s onwards from Colombia to Venezuela, resulting from the conflict taking place in Colombia, lack of opportunities and poor administration management (further information can be found in Martinez's work [here](https://repository.ucatolica.edu.co/bitstream/10983/3107/4/TESINA%20EL%20PROCESO%20MIGRATORIO%20ENTRE%20COLOMBIA%20Y%20VENEZUELA%201989%202014%20%20PRINCIPALES%20CAUSAS%20Y%20EFECTOS%20P.pdf) in Spanish). Language, cultural and geographic proximity are also decisive factors in these circumstances. 
+For a future project, it would be interesting to locate additional datasets containing more information on different migration categories, in particular irregular immigration, to reflect immigration flows more accurately. 
 
 
 ## Organization
@@ -68,7 +69,7 @@ We noticed some gaps in our migration dataset which are likely due to irregular 
 We created a kanban board on Trello to organise and coordinate work among ourselves. That way, we could distinguish between tasks that needed to be done and tasks that would be nice to have if time permits. The kanban board also allowed us to assign tasks to one or more of us, making it easier to keep track of who was doing what. 
 
 Our repository contains the following files:
-- Presentation - *STILL TO ADD*
+- Presentation
 - Datasets folders containing csv files: 
   - 1_Migration
     - 0_Metadata
@@ -92,18 +93,21 @@ Our repository contains the following files:
     - 2_migration_population_merge_clean (cleaned version of above dataset)
     - 3_migration_merge_clean_final (merge of 1_migration_population_merge and 2_migration_countries)
     - 4_migration_happiness_merge (merge of 3_migration_merge_clean_final and 2017 Happiness csv)
-  - 5_Subsets *- keep this or delete??*
 - Notebooks folder containing Jupyter Notebook files:
   - Merge_1_migration_population
   - Merge_2_migration_tables
   - Merge_3_migration_happiness
+  - Happiness Analysis
+  - Descriptive_analysis_happiness
+  - regression_migration
+  - temp-plot.html
 
 
 ## Links
 
 [Repository](https://github.com/imogen-rickert/migration_happiness)  
 
-TABLEAU *still to add when finalised*
+[Tableau](https://public.tableau.com/profile/imogen.rickert#!/vizhome/Migration_happiness/Story1?publish=yes)  
 
 [Trello](https://trello.com/b/rFmUeEsa/migration-happiness)
 
